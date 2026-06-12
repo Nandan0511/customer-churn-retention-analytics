@@ -7,7 +7,7 @@ from auth import (
     logout
 )
 
-from app.utils import load_css
+from utils import load_css
 
 # ==========================================
 # PAGE CONFIG
