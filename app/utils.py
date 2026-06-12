@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from config import *
+from app.config import *
 
 import shap
 import matplotlib.pyplot as plt
