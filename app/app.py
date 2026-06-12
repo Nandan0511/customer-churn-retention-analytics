@@ -1,13 +1,13 @@
 # app/app.py
 import streamlit as st
 
-from app.auth import (
+from auth import (
     login,
     check_auth,
     logout
 )
 
-from app.utils import load_css
+from utils import load_css
 
 # ==========================================
 # PAGE CONFIG
