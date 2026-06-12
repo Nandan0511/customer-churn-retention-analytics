@@ -1147,11 +1147,16 @@ def generate_single_prediction_pdf(
         # AI RECOMMENDATION
         # ==========================================
 
+        formatted_recommendation = ai_recommendation.replace(
+           "\n",
+           "<br/>"
+        )
+
         ai_section = f"""
 
-        <b>AI Business Recommendation</b><br/><br/>
+            <b>AI Business Recommendation</b><br/><br/>
 
-        {ai_recommendation.replace('\n', '<br/>')}
+            {formatted_recommendation}
 
         """
 
